@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import './App.css';
 import SearchBar from './containers/search_bar';
+import WeatherList from './containers/weather_list';
+
 
 class App extends Component {
   render() {
@@ -8,6 +10,7 @@ class App extends Component {
       <div className="App">
         weather report
         <SearchBar/>
+        <WeatherList/>
       </div>
     );
   }
